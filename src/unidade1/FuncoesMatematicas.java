@@ -1,4 +1,4 @@
-package reaprendendo;
+package unidade1;
 
 public class FuncoesMatematicas {
 

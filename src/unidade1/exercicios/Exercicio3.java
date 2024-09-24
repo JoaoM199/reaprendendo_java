@@ -1,4 +1,4 @@
-package reaprendendo.exercicios;
+package unidade1.exercicios;
 
 import java.util.Scanner;
 
