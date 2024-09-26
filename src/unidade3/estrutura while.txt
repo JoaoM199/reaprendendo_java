@@ -1,0 +1,18 @@
+Estrutura While
+
+While = Enquanto
+
+Uma estrutura de controle que repete um bloco de comandos enquanto a condição for verdadeira.
+Ela fica constantemente testanto a condição.
+Usa-se quando não se sabe previamente a quantidade de repetições que será realizada
+
+Sintaxe:
+
+while (condição) {
+	comando 1
+	comando 2
+}
+
+Regras:
+Se verdadeiro: executa e volta
+se Falso: Pula fora e não executa
