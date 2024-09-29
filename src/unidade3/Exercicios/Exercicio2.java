@@ -32,6 +32,8 @@ public class Exercicio2 {
 		}
 		System.out.println("MUITO OBRIGADO");
 		System.out.printf("Alcool: %d%nGasolina: %d%nDiesel: %d%n", alcool, gasolina, diesel);
+		
+		sc.close();
 
 	}
 

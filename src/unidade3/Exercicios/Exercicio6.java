@@ -3,10 +3,10 @@ package unidade3.Exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio6 {
 
 	public static void main(String[] args) {
-		// Exercício 5
+		// Exercício 6
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -14,15 +14,17 @@ public class Exercicio5 {
 		int N = sc.nextInt();
 		
 		for (int i = 0; i < N; i += 1) {
-			double a, b, c, media;
-			a = sc.nextDouble();
-			b = sc.nextDouble();
-			c = sc.nextDouble();
+			int x, y;
+			x = sc.nextInt();
+			y = sc.nextInt();
 			
-			media = ((a * 2.0) + (b * 3.0) + (c * 5.0)) / 10.0;
-			
-			System.out.printf("%.1f%n", media);
-			
+			if (y == 0) {
+				System.out.println("Divisão impossível");
+			}
+			else {
+				double div = (double) x/y;
+				System.out.printf("%.1f%n", div);
+			}
 		}
 		
 		sc.close();
