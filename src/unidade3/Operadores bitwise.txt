@@ -1,0 +1,16 @@
+Operadores bitwise
+
+São operadores que agem bit a bit.
+
+Ex:
+	& = E
+	| = Ou
+	^ = Ou-exclusivo / Xor
+Obs. O Ou-exclusivo (Xor) não dá verdadeiro quando ambas sentenças são verdadeiras.
+
+Cada caractere possui um valor binário, um operador bit a bit pega dois valores binários correspondentes a números, os compara e resulta em novos resultados.
+0 = Falso
+1 = Verdadeiro
+
+Operações Bitwise são geralmente aplicadas em programação de baixo nível, como robótica, hardware, microcontroladores, interface com rede, etc.
+Ex. O programador vai programar uma interfcace de rede e ele quer verificar os bits do endereço da rede.
