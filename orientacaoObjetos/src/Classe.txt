@@ -1,0 +1,14 @@
+Classe
+
+É um tipo estruturado que pode conter membros:
+	Atributos (dados/campos:
+		Ex: Nome, Telefone e email -> Entidade
+	Métodos (funções/operações)
+		Ex: 
+		
+A classe também promove outros recursos como:
+	Constutores
+	Sobrecarga
+	Encapsulamento
+	Herança
+	Polimorfismo
