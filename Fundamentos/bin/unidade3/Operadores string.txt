@@ -1,0 +1,16 @@
+Operadores para edição de Strings
+
+Formatar: 
+	toLowerCase() 				Transformar para minúsculo
+	toUpperCase()				Transformar para maiúsculo
+	trim()						Remover espaços
+Recortar:
+	substring(inicio)			Informando início
+	substring(inicio,fim)		Informando início e fim
+Substituir:
+	Replace(char, char)			Substituir caractere
+	Replace(string, string)		Substituir string
+Buscar:
+	IndexOf						Buscar posição do índice
+	LastIndexOf					Buscar posição do último índice
+str.Split("")					Recortar a string com base em um separador

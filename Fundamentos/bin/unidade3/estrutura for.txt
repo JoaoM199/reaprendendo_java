@@ -1,0 +1,13 @@
+Estrutura for
+
+for = para
+
+Uma estrutura de controle que repete blocos de comandos para um certo intervalo de valores.
+Deve ser usado quando se sabe previamente a quantidade de repetições
+
+Sintaxe:
+
+for (inicio; condição; incrementi) {
+	comando 1
+	comando 2
+}

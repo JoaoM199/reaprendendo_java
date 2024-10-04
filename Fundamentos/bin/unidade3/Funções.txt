@@ -1,0 +1,29 @@
+Funções (sintaxe)
+
+Representam um procedimento que possui um significado e retorna um valor. Ex:
+	Math.sqrt(double) -> Raiz quadrada
+	System.out.println("texto") -> Exibir código na tela
+	
+Principais vantagens: 
+	Modularização: 		Dividir o programa em módulos
+	Delegação: 			Delega a lógica para vários lugares
+	Reaproveitamento:	Reaproveitar funções várias vezes durante o código
+	
+As funções podem receber dados de entrada (parâmetros ou argumentos) e podem ou não retornar uma saída.
+
+Em orientação a objetos as funções são reconhecidas como métodos
+
+Todo programa está dentro de uma classe denominada "public class Program {}" e dentro dela existe uma função denominada "main" (public static void main), isso porque a linguagem Java tem como paradigma orientação à objetos.  Essa função será executada em primeiro lugar. 
+
+Para criar as próprias funções, antes do último "}", use a sintaxe:
+	
+	public static tipo_de_dado nome_da_função(variaveis) {
+		código 1
+		código 2
+		return variável
+	}
+	
+	
+Explicando
+	public = a função ficará disponível para outras classes
+	static = a função continuará sendo usada, mesmo que crie um novo objeto

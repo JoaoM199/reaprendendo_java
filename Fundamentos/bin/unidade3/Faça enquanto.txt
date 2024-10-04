@@ -1,0 +1,13 @@
+Do While
+
+Faça enquanto
+
+O bloco de comando é executado pelo menos uma vez, sendo que ela será verificada no final.
+Enquanto a condição for verdadeira, o bloco de comando irá se repetir, caso contrário, ele será executado apenas uma vez
+
+Sintaxe:
+
+do {
+	comando 1
+	comando 2
+} while (condição);

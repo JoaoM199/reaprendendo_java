@@ -3,7 +3,7 @@ package mediaNotaAlunos;
 import java.util.Scanner;
 import java.util.Locale;
 
-import entities.Grades;
+import entities.Student;
 
 public class Application {
 
@@ -20,7 +20,7 @@ public class Application {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Grades grades = new Grades();
+		Student grades = new Student();
 		
 		System.out.println("Insert student data");
 		System.out.print("Name: ");
